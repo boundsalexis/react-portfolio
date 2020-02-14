@@ -16,10 +16,10 @@ const Navbar = props => {
                 
                     <ul className="navbar-nav mr-auto">
                       <li className="nav-item active">
-                        <a className="nav-link" href="#">Biography</a>
+                        <a className="nav-link" href="/biography">Biography</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio</a>
+                        <a className="nav-link" href="/portfolio">Portfolio</a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" href="#">Contact Information</a>

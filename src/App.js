@@ -6,6 +6,7 @@ import Navbar from './components/navbar';
 import Wrapper from "./components/wrapper";
 import Glance from "./pages/ataglance";
 import Footer from "./components/footer";
+import Portfolio from "./pages/portfolio";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Wrapper>
       <Route exact path="/" component={Glance}/>
+      <Route exact path="/portfolio" component={Portfolio}/>
       </Wrapper>
       <Footer/>
       </Router>
