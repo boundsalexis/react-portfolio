@@ -1,0 +1,65 @@
+{
+    "projects": [
+        {
+            "name": "Election Year",
+            "shortDescription": "Allows you to search the United States Congress, view their campaign contributors, and create an account.",
+            "longDescription": "I worked on a team with three people to create an app with real world application. In recent years voters have become more concerned with representative's campaign donors. This app allows the user to create an account and keeps track of representatives in their specified state. We have a comprehensive search field with multiple optional parameterss allowing for broad or narrow searches. From the search results the user is able to click on each representative and see their campaign donors. We used Node.js and Express to create our server, Bootstrap to style to frontend, and MySQL and Sequelize to manage our database.",
+            "technologies": ["Node.js", "ES6", "Charts.js", "Bootstrap", "Express", "Proppublica API", "Opensecrets API", "Handlebars"],
+            "isDeployed": true,
+            "liveLink": "https://mycandidates.herokuapp.com/",
+            "repoLink": "https://github.com/boundsalexis/tinfoil-hat",
+            "gif":"/political.gif"
+            
+        },
+        {
+            "name": "FitMe",
+            "shortDescription": "Provide user with personalized motivation, workout plans, nutrition, and gyms based on their location.",
+            "longDescription": "I worked with a team of three to create FitMe. The nutrition calculations were based on a formula from multiple reputable sources. The motivation comes fromt he quotable API, and the gym information comes from the Yelp API. We pull the users location from where they are at the time of viewing the app to ensure they recieve the most convenient gym information",
+            "technologies": ["HTML", "ES6", "Javascript", "Pure.CSS", "Firebase", "Quotable API"],
+            "isDeployed": true,
+            "liveLink": "https://skuttenkuler.github.io/FitME/",
+            "repoLink": "https://github.com/skuttenkuler/FitME",
+            "gif":"/fitme.gif"
+            
+        },
+        {  "name": "Content Management System",
+            "shortDescription": "Command Line Interface allowing user to add, update, and delete: Deparments, Roles, Employees, and Managers.",
+            "longDescription": "This CLI has three tables. A department table, a roles table, and an employees table. Employees have a role, department and manager associated with them. There is no seperate management table, the employee table is self-referential. You can view each table individually and a join of them all.",
+            "technologies": [ "ES6", "Javascript", "Pure.CSS", "MySQL", "Sequelize"],
+            "isDeployed": false,
+            "repoLink": "https://github.com/boundsalexis/content-management-system",
+            "gif":"/fitme.gif"
+
+        },
+     {
+            "name": "Note Taker",
+            "technology": [" Node JS ", " HTML ", " Express ", " Jquery ", " Pure CSS" ],
+            "repo": "https://github.com/boundsalexis/note-taker",
+            "deployed": true,
+            "live":"https://mysterious-waters-03191.herokuapp.com/",
+            "description": "This app allows the user to create, edit, and delete notes. Anyone with the link can add to the notes. The notes are saved in a makeshift database by writing and rewriting a file.",
+            "img":"/assets/notetaker.png"
+            },
+        {
+            "name": "Cicky Game",
+            "technology": ["React ", "Handlebars ", " Bootstrap", " CSS", " JSX"],
+            "deployed": true,
+            "liveLink":"https://boundsalexis.github.io/clicky-game/",
+            "repo": "https://github.com/boundsalexis/Weather-Board",
+            "description": "This is a memory game which utilizes React to track the state and keep the scores updating. Upon each click the clicked item is compared to an array holding all clicked items and if it is already in that array the user has lost. If the clicked item is not in the array it is added and the score is incremented.",
+            "img":"/assets/losing.gif"
+            },
+            {
+            "name": "Team Manager",
+            "technology": ["Node JS ", " HTML ", " Jest "],
+            "deployed": false,
+            "repo": "https://github.com/boundsalexis/team-generator",
+            "description": "This app allows you to add different types of employees to be added to your team for easy access to information relative to their role. Jest was used for testing. ",
+            "img":"/assets/teamgenerator.png"
+            }
+    ],
+    "headshot":"/headshot.jpeg",
+    "bio": "Full stack Web Developer with a BA in psychology from University of California, Los Angeles and a certificate in Full Stack Development from the University of California, Berkeley. My communication skills were honed while mediating sensitive situations in a diverse community at the Housing Authority of San Bernardino and are supplemented by my strong technical skills in Javascript, Node.JS, RESTful APIs, MySQL, React, Git. Creating applications with logical code, and focusing on intuitive design. Enjoy learning from my peers and value outside contributions to my work. Passionate about people, working on teams with knowledgeable collaborators, and working towards a meaningful goal.",
+    "skills": ["Javascript", "ES6", "Node.js", "APIs", "MySQL", "React.js","MongoDB", "Sequelize", "Mongoose", "MERN applications", "JQUERY", "Express", "HTML", "CSS", "FireBase", "Jest", "Git"],
+    "education": ["University of California, Los Angeles: Bachelor of Arts in Psychology", "University of California, Berkley: Full Stack Coding Bootcamp"]
+}
