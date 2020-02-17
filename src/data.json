@@ -8,7 +8,7 @@
             "isDeployed": true,
             "liveLink": "https://mycandidates.herokuapp.com/",
             "repoLink": "https://github.com/boundsalexis/tinfoil-hat",
-            "gif":"/political.gif"
+            "gif":"/searchfunct.gif"
             
         },
         {
@@ -19,7 +19,7 @@
             "isDeployed": true,
             "liveLink": "https://skuttenkuler.github.io/FitME/",
             "repoLink": "https://github.com/skuttenkuler/FitME",
-            "gif":"/fitme.gif"
+            "gif":"/Fitme.gif"
             
         },
         {  "name": "Content Management System",
@@ -28,34 +28,34 @@
             "technologies": [ "ES6", "Javascript", "Pure.CSS", "MySQL", "Sequelize"],
             "isDeployed": false,
             "repoLink": "https://github.com/boundsalexis/content-management-system",
-            "gif":"/fitme.gif"
+            "gif":"/cms.gif"
 
         },
      {
             "name": "Note Taker",
             "technology": [" Node JS ", " HTML ", " Express ", " Jquery ", " Pure CSS" ],
             "repo": "https://github.com/boundsalexis/note-taker",
-            "deployed": true,
+            "isDeployed": true,
             "live":"https://mysterious-waters-03191.herokuapp.com/",
-            "description": "This app allows the user to create, edit, and delete notes. Anyone with the link can add to the notes. The notes are saved in a makeshift database by writing and rewriting a file.",
-            "img":"/assets/notetaker.png"
+            "shortDescription": "This app allows the user to create, edit, and delete notes. Anyone with the link can add to the notes. The notes are saved in a makeshift database by writing and rewriting a file.",
+            "gif":"/notetaker.gif"
             },
         {
             "name": "Cicky Game",
             "technology": ["React ", "Handlebars ", " Bootstrap", " CSS", " JSX"],
-            "deployed": true,
+            "isDeployed": true,
             "liveLink":"https://boundsalexis.github.io/clicky-game/",
             "repo": "https://github.com/boundsalexis/Weather-Board",
-            "description": "This is a memory game which utilizes React to track the state and keep the scores updating. Upon each click the clicked item is compared to an array holding all clicked items and if it is already in that array the user has lost. If the clicked item is not in the array it is added and the score is incremented.",
-            "img":"/assets/losing.gif"
+            "shortDescription": "This is a memory game which utilizes React to track the state and keep the scores updating. Upon each click the clicked item is compared to an array holding all clicked items and if it is already in that array the user has lost. If the clicked item is not in the array it is added and the score is incremented.",
+            "gif":"/clickygame.gif"
             },
             {
             "name": "Team Manager",
             "technology": ["Node JS ", " HTML ", " Jest "],
-            "deployed": false,
+            "isDeployed": false,
             "repo": "https://github.com/boundsalexis/team-generator",
-            "description": "This app allows you to add different types of employees to be added to your team for easy access to information relative to their role. Jest was used for testing. ",
-            "img":"/assets/teamgenerator.png"
+            "shortDescription": "This app allows you to add different types of employees to be added to your team for easy access to information relative to their role. Jest was used for testing. ",
+            "gif":"/teamgenerator.gif"
             }
     ],
     "headshot":"/headshot.jpeg",

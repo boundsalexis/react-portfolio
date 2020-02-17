@@ -6,7 +6,7 @@ const Navbar = props => {
                 return (
 
                   <nav className="navbar navbar-light light-blue lighten-4">
-                  <a className="navbar-brand" href="#">Alexis Bounds</a>
+                  <a className="navbar-brand" href="/">Alexis Bounds</a>
                 
                   <button className="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
                     aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span className="dark-blue-text"><i
@@ -21,11 +21,11 @@ const Navbar = props => {
                       <li className="nav-item">
                         <a className="nav-link" href="/portfolio">Portfolio</a>
                       </li>
+                      {/* <li className="nav-item">
+                        <a className="nav-link" href="">Contact Information</a>
+                      </li> */}
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Contact Information</a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="#">At a glance...</a>
+                        <a className="nav-link" href="/">At a glance...</a>
                       </li>
                     </ul>
                 
