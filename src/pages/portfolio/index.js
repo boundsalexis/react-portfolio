@@ -9,13 +9,13 @@ function Portfolio(props) {
     //     height: "25%"
     // };
     return (
-        <div className="container">
+        <div className="container mainportfolio">
             {data.projects.map(item => (
                 <div className="card" key={item.name} >
-                    <img src={item.gif} className="card-img-top" alt={item.name} ></img>
-                    <div class="card-body">
-                        <h5 class="card-title">{item.name}</h5>
-                        <p class="card-text">{item.shortDescription}</p>
+                    <img className="scale"src={item.gif} className="card-img-top" alt={item.name} ></img>
+                    <div className="card-body">
+                        <h5 className="card-title">{item.name}</h5>
+                        <p className="card-text">{item.shortDescription}</p>
                         <a href={'/portfolio/' + item.name} class="btn btn-primary">Get Details</a>
                     </div>
                 </div>

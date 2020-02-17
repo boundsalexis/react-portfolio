@@ -16,18 +16,24 @@ function Project(props) {
   
     return (
         <div className="container">
+            <div class="project">
             <h3>{data.projects[index].name}</h3>
             {/* <h6>{data.projects[index].shortDescription}</h6> */}
             <img src={data.projects[index].gif} alt="politicalgif"></img>
-            <h6>{data.projects[index].longDescription}</h6>
+     {data.projects[index].highlights.map(item => (
+                <h6>{item}</h6>
+            ))}
+            </div>
+          
 
-            <div>
+            <div class="projectlinks">
                 {data.projects[index].isDeployed &&
                     <a href={data.projects[index].liveLink}>Live Link</a>
                 }
                 <a href={data.projects[index].repoLink}>Repository Link</a>
+                <a href="/portfolio" className="btn btn-primary">Return to portfolio</a>
             </div>
-            <a href="/portfolio" className="btn btn-primary">Return to portfolio</a>
+            {/* <a href="/portfolio" className="btn btn-primary">Return to portfolio</a> */}
         </div>
     );
 }
