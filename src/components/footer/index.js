@@ -7,11 +7,11 @@ function Footer(){
     return (
         <footer className="footer">
           <div className="container">
-            {/* <span className="text-muted"> */}
-            <i className="fab fa-github" href="https://github.com/boundsalexis"><a href="https://github.com/boundsalexis"></a></i>
+            <span className="text-muted">
+          <a className="fab fa-github" href="https://github.com/boundsalexis"> </a>
             Alexis Bounds
-            <i className="fab fa-linkedin-in" href="https://www.linkedin.com/in/boundsalexis/"></i>
-            {/* </span> */}
+            <a className="fab fa-linkedin-in" href="https://www.linkedin.com/in/boundsalexis/"> </a>
+            </span>
           </div>
         </footer>
     )
