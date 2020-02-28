@@ -1,10 +1,15 @@
 import React from 'react';
+// import {
+//   BrowserRouter as Router,
+
+//   Route,
+
+// } from "react-router-dom";
 import {
   BrowserRouter as Router,
-
-  Route,
-
-} from "react-router-dom";
+  Switch,
+  Route
+} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/navbar';
 import Wrapper from "./components/wrapper";
@@ -22,11 +27,14 @@ function App() {
        <Navbar/> 
       <Wrapper>
       <Router>
+        <Switch>
+        <Route  path="/" ><Glance></Glance></Route>
+      <Route  path="/biography"><Biography></Biography></Route>
+      <Route  path="/portfolio" ><Portfolio></Portfolio></Route>
+      <Route  path="/portfolio/:id" ><Project></Project></Route>
+
+        </Switch>
       {/* <Navbar/>       */}
-      <Route exact path="/" component={Glance}/>
-      <Route exact path="/biography" component={Biography}/>
-      <Route exact path="/portfolio" component={Portfolio}/>
-      <Route exact path="/portfolio/:id" component={Project}/>
       </Router>
       </Wrapper>
       <Push/>
