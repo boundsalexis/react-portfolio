@@ -27,7 +27,7 @@ function App() {
     <Navbar/> 
    <Wrapper>
    <Router>
-   <Navbar/>      
+   
    <Switch>
         <Route exact path="/"><Glance/></Route>
       <Route path="/biography"><Biography/></Route>

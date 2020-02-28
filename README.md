@@ -9,7 +9,7 @@ Run NPM install
 Run NPM start
 
 ## Live Link
-- [Link to site repository](https://github.com/boundsalexis/react-portfolio)
+- [Link to site repository](https://alexisboundsportfolio.herokuapp.com/)
 
 
 ## Code Snippets
