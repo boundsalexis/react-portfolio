@@ -1,7 +1,7 @@
 
 import React from "react";
 import "./style.css";
-import data from '../../data.json.js'
+import data from "../../data.json";
 
 function Portfolio(props) {
     // let style = {
