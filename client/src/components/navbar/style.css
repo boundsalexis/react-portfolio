@@ -1,0 +1,6 @@
+.navbar{
+    background-color: #FAD6DD;
+    /* height: 60px; */
+    min-height: 75px;
+    max-height: fit-content;
+}
