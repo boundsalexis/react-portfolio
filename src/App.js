@@ -23,10 +23,10 @@ function App() {
       <Wrapper>
       <Router>
       {/* <Navbar/>       */}
-      <Route exact path="/" component={Glance}/>
-      <Route exact path="/biography" component={Biography}/>
-      <Route exact path="/portfolio" component={Portfolio}/>
-      <Route exact path="/portfolio/:id" component={Project}/>
+      <Route exact path="/boundsalexis" component={Glance}/>
+      <Route exact path="/boundsalexis/biography" component={Biography}/>
+      <Route exact path="/boundsalexis/portfolio" component={Portfolio}/>
+      <Route exact path="/boundsalexisn /portfolio/:id" component={Project}/>
       </Router>
       </Wrapper>
       <Push/>
