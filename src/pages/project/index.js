@@ -16,10 +16,10 @@ function Project(props) {
   
     return (
         <div className="container">
-            <div class="project">
+            <div className="project">
             <h3>{data.projects[index].name}</h3>
             {/* <h6>{data.projects[index].shortDescription}</h6> */}
-            <img src={data.projects[index].gif} alt="politicalgif"></img>
+            <img className="projectimage" src={data.projects[index].gif} alt={data.projects[index].name}></img>
      {data.projects[index].highlights.map(item => (
                 <h6>{item}</h6>
             ))}

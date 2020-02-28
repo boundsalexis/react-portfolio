@@ -14,6 +14,7 @@
         },
         {
             "name": "FitMe",
+            "highlights":["I need","to make", "real ones"],
             "shortDescription": "Provide user with personalized motivation, workout plans, nutrition, and gyms based on their location.",
             "longDescription": "I worked with a team of three to create FitMe. The nutrition calculations were based on a formula from multiple reputable sources. The motivation comes fromt he quotable API, and the gym information comes from the Yelp API. We pull the users location from where they are at the time of viewing the app to ensure they recieve the most convenient gym information",
             "technologies": ["HTML", "ES6", "Javascript", "Pure.CSS", "Firebase", "Quotable API"],
@@ -24,6 +25,8 @@
             
         },
         {  "name": "Content Management System",
+            "highlights":["I need","to make", "real ones"],
+
             "shortDescription": "Command Line Interface allowing user to add, update, and delete: Deparments, Roles, Employees, and Managers.",
             "longDescription": "This CLI has three tables. A department table, a roles table, and an employees table. Employees have a role, department and manager associated with them. There is no seperate management table, the employee table is self-referential. You can view each table individually and a join of them all.",
             "technologies": [ "ES6", "Javascript", "Pure.CSS", "MySQL", "Sequelize"],
@@ -34,6 +37,8 @@
         },
      {
             "name": "Note Taker",
+            "highlights":["I need","to make", "real ones"],
+
             "technology": [" Node JS ", " HTML ", " Express ", " Jquery ", " Pure CSS" ],
             "repo": "https://github.com/boundsalexis/note-taker",
             "isDeployed": true,
@@ -43,6 +48,8 @@
             },
         {
             "name": "Cicky Game",
+            "highlights":["I need","to make", "real ones"],
+
             "technology": ["React ", "Handlebars ", " Bootstrap", " CSS", " JSX"],
             "isDeployed": true,
             "liveLink":"https://boundsalexis.github.io/clicky-game/",
@@ -52,6 +59,8 @@
             },
             {
             "name": "Team Manager",
+            "highlights":["I need","to make", "real ones"],
+
             "technology": ["Node JS ", " HTML ", " Jest "],
             "isDeployed": false,
             "repo": "https://github.com/boundsalexis/team-generator",

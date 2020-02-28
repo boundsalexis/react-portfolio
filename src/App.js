@@ -13,20 +13,23 @@ import Footer from "./components/footer";
 import Portfolio from "./pages/portfolio";
 import Project from "./pages/project";
 import Biography from './pages/bio';
+import Push from "./components/push";
 // import Project from "./pages/projects";
 
 function App() {
   return (
     <div>
+       <Navbar/> 
       <Wrapper>
       <Router>
-      <Navbar/>      
+      {/* <Navbar/>       */}
       <Route exact path="/" component={Glance}/>
       <Route exact path="/biography" component={Biography}/>
       <Route exact path="/portfolio" component={Portfolio}/>
       <Route exact path="/portfolio/:id" component={Project}/>
       </Router>
       </Wrapper>
+      <Push/>
       <Footer/>
     </div>
   )

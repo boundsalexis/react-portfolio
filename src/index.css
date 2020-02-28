@@ -20,3 +20,7 @@ code {
 /* body{
   margin: 0 auto;
 } */
+html{
+  position: relative;
+  min-height: 100%;
+}
