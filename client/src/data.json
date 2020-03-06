@@ -1,8 +1,8 @@
 {
     "projects": [
-        {   "param":"ey",
+        {  
             "name": "Election Year",
-            "highlights": ["Front-end created with Bootstrap","Powered by a Node.js and Express server", "Pages rendered using Handlebars", "Make calls to Propublica and OpenSecrets APIS", "Backed by a sequelized MySQL database" ],
+            "highlights": ["Full stack application","Front-end created with Bootstrap","Powered by a Node.js and Express server", "Pages rendered using Handlebars", "Make calls to Propublica and OpenSecrets APIS", "Backed by a sequelized MySQL database" ],
             "shortDescription": "Allows you to search the United States Congress, view their campaign contributors, and create an account.",
             "longDescription": "I worked on a team with three people to create an app with real world application. In recent years voters have become more concerned with representative's campaign donors. This app allows the user to create an account and keeps track of representatives in their specified state. We have a comprehensive search field with multiple optional parameterss allowing for broad or narrow searches. From the search results the user is able to click on each representative and see their campaign donors. We used Node.js and Express to create our server, Bootstrap to style to frontend, and MySQL and Sequelize to manage our database.",
             "technologies": ["Node.js", "ES6", "Charts.js", "Bootstrap", "Express", "Proppublica API", "Opensecrets API", "Handlebars"],
@@ -11,10 +11,19 @@
             "repoLink": "https://github.com/boundsalexis/tinfoil-hat",
             "gif":"/searchfunct.gif"
             
+        },{
+            "name": "Artiste Affamé",
+            "highlights": ["Full Stack MERN application","React", "Powered by a Node.js and Express server", "Backed by a MongoDB databse, using Mongoose for simplicity"],
+            "shortDescription": "An interactive video game, make art, upload it, earn coins from likes, spend your coins in the store, use items in your inventory",
+            "longDescription": "I worked on a team of three people to create an video game with basic functionality and big plans for future development. As it stands now we have two mini-games in our arcade; our main goal in future development is to add games to the arcade. We are very interested in the logic behind strategy based card games. Rather than having many seperate game sites we are able to have a single site from which users can view all of the mini-games we make. Another added feature we aim to add is an inspiration level to the user's state. The idea being that the inventory items either increase or decrease the inpiration level. When the user uploads or creates a painting the inspiration level is saved to that painting and when the user sells that painting the number of likes is multiplied by the inspiration level.",
+            "technologies": ["MongoDB","Express","React","Node.js","Materialize", "Redux"],
+            "isDeployed": true,
+            "liveLink": "https://artiste-affame.herokuapp.com/",
+            "repoLink": "https://github.com/boundsalexis/react-portfolio"
         },
         {
             "name": "FitMe",
-            "highlights":["I need","to make", "real ones"],
+            "highlights":["User Authentication through FireBase","Deployed to github pages", "Single page application", "Mobile friendly", "Use user's geolocation in our Yelp API call"],
             "shortDescription": "Provide user with personalized motivation, workout plans, nutrition, and gyms based on their location.",
             "longDescription": "I worked with a team of three to create FitMe. The nutrition calculations were based on a formula from multiple reputable sources. The motivation comes fromt he quotable API, and the gym information comes from the Yelp API. We pull the users location from where they are at the time of viewing the app to ensure they recieve the most convenient gym information",
             "technologies": ["HTML", "ES6", "Javascript", "Pure.CSS", "Firebase", "Quotable API"],
@@ -25,7 +34,7 @@
             
         },
         {  "name": "Content Management System",
-            "highlights":["I need","to make", "real ones"],
+            "highlights":["Full CRUD cycle for all categories","Command Line Interface Application", "Easy view of relationships between tables"],
 
             "shortDescription": "Command Line Interface allowing user to add, update, and delete: Deparments, Roles, Employees, and Managers.",
             "longDescription": "This CLI has three tables. A department table, a roles table, and an employees table. Employees have a role, department and manager associated with them. There is no seperate management table, the employee table is self-referential. You can view each table individually and a join of them all.",
@@ -37,34 +46,34 @@
         },
      {
             "name": "Note Taker",
-            "highlights":["I need","to make", "real ones"],
-
-            "technology": [" Node JS ", " HTML ", " Express ", " Jquery ", " Pure CSS" ],
-            "repo": "https://github.com/boundsalexis/note-taker",
+            "highlights":["Full Stack application","Full CRUD Cycle"],
+            "technologies": [" Node JS ", " HTML ", " Express ", " Jquery ", " Pure CSS", "File System JS" ],
             "isDeployed": true,
-            "live":"https://mysterious-waters-03191.herokuapp.com/",
+            "liveLink":"https://mysterious-waters-03191.herokuapp.com/",
+            "repoLink":"https://github.com/boundsalexis/note-taker",
             "shortDescription": "This app allows the user to create, edit, and delete notes. Anyone with the link can add to the notes. The notes are saved in a makeshift database by writing and rewriting a file.",
+            "longDescription": "I used File System JS to write the notes to the 'Database'. Each time the user adds, edits, or deletes a note we read the database file, find the note specified, edit/delete it and then rewrite the file. When the user creates a new note we read the database file, add the new note to the end and rewrite it.",
             "gif":"/notetaker.gif"
             },
         {
             "name": "Cicky Game",
-            "highlights":["I need","to make", "real ones"],
-
-            "technology": ["React ", "Handlebars ", " Bootstrap", " CSS", " JSX"],
+            "highlights":["React","Deployed to GitHub Pages", "React Hooks"],
+            "technologies": ["React ", "Handlebars ", " Bootstrap", " CSS", " JSX"],
             "isDeployed": true,
             "liveLink":"https://boundsalexis.github.io/clicky-game/",
-            "repo": "https://github.com/boundsalexis/Weather-Board",
+            "repoLink": "https://github.com/boundsalexis/clicky-game",
             "shortDescription": "This is a memory game which utilizes React to track the state and keep the scores updating. Upon each click the clicked item is compared to an array holding all clicked items and if it is already in that array the user has lost. If the clicked item is not in the array it is added and the score is incremented.",
+            "longDescription": "I used the React context hook to keep track of which pictures the user has already clicked. Each time the user clicks we take in what they clicked, compare it to what has already been clicked, if it is a new item we add it to our clicked array and continue. If the item has been clicked before we send them a you lost alert and reset the game. React is a fun tool to work with, managing the state is a convienient alternative to constantly querying a database.",
             "gif":"/clickygame.gif"
             },
             {
             "name": "Team Manager",
-            "highlights":["I need","to make", "real ones"],
-
-            "technology": ["Node JS ", " HTML ", " Jest "],
+            "highlights":["CLI application","At the end of input a new HTML file is generated", ""],
+            "technologies": ["Node JS ", " HTML ", " Jest ", "Inquirer"],
             "isDeployed": false,
-            "repo": "https://github.com/boundsalexis/team-generator",
+            "repoLink": "https://github.com/boundsalexis/team-generator",
             "shortDescription": "This app allows you to add different types of employees to be added to your team for easy access to information relative to their role. Jest was used for testing. ",
+            "longDescription": "Building this application taught me about how to effectively use callback functions. Initially the user was only able to add one of each type of employee. Now the user is able to add an infinite number of each type of employee. This was achieved by having one main prompt. This prompt gives the option to select a type of employee to add and an option to end the program. When the user selects an employee to add we do the necessary work to compile the emplyee information into our HTML file; then we call the same intial prompt at the end. Only once the user selects to end the program does the CLI terminate and the HTML file is generated. This was my foundation for understanding callbacks and recursions.", 
             "gif":"/teamgenerator.gif"
             }
     ],

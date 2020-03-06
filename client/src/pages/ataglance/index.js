@@ -17,7 +17,7 @@ function Glance(props) {
                     <h6>{item}</h6>
                 ))}
                 <div className="stack">
-                    <a href={'/portfolio/' + data.projects[0].name} className="btn btn-primary" id={data.projects[0].name}>Get Details</a>
+                    <a href={data.projects[0].name} className="btn btn-primary" id={data.projects[0].name}>Get Details</a>
                     {/* <a href={data.projects[0].liveLink} >Live Link</a>
                     <a href={data.projects[0].repoLink} >Repository Link</a> */}
                 </div>
