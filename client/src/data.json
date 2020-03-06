@@ -1,6 +1,6 @@
 {
     "projects": [
-        {
+        {   "param":"ey",
             "name": "Election Year",
             "highlights": ["Front-end created with Bootstrap","Powered by a Node.js and Express server", "Pages rendered using Handlebars", "Make calls to Propublica and OpenSecrets APIS", "Backed by a sequelized MySQL database" ],
             "shortDescription": "Allows you to search the United States Congress, view their campaign contributors, and create an account.",

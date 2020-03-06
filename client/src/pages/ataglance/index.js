@@ -5,10 +5,7 @@ import data from "../../data.json";
 
 
 function Glance(props) {
-    let styles = {
-        width: "70%",
-        height: "20%"
-    };
+ 
     return (
         <div className="container mainglance">
             <h1>Alexis at a glance...</h1>
@@ -20,12 +17,12 @@ function Glance(props) {
                     <h6>{item}</h6>
                 ))}
                 <div className="stack">
-                    <a href={'/portfolio/' + data.projects[0].name} className="btn btn-primary">Get Details</a>
+                    <a href={'/portfolio/' + data.projects[0].name} className="btn btn-primary" id={data.projects[0].name}>Get Details</a>
                     {/* <a href={data.projects[0].liveLink} >Live Link</a>
                     <a href={data.projects[0].repoLink} >Repository Link</a> */}
                 </div>
                 </div>
-                <div class="skills">
+                <div className="skills">
                 <h3>Technical Skills</h3>
                 <div className="technical">
                     {data.skills.map(item => (
@@ -36,8 +33,7 @@ function Glance(props) {
              
                 <div className="edu">
                     <h3>Education</h3>
-                    <h6>                {data.education[1]}
-                    </h6>
+                    <h6>{data.education[1]}</h6>
                     <h6>{data.education[0]}</h6>
                 </div>
 

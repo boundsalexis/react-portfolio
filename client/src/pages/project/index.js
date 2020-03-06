@@ -6,14 +6,18 @@ import data from "../../data.json";
 function Project(props) {
     let index;
     const indexFinder = (props) => {
+        console.log("heller");
+        console.log(props.match.params.id);
         for (let i = 0; i < data.projects.length; i++) {
             if (props.match.params.id === data.projects[i].name) {
                 return (i)
+            }else{
+                console.log("no");
             }
         }
     }
     index = indexFinder(props);
-  
+  console.log("ia thia loDING RIGHT")
     return (
         <div className="container">
             <div className="project">
@@ -26,7 +30,7 @@ function Project(props) {
             </div>
           
 
-            <div class="projectlinks">
+            <div className="projectlinks">
                 {data.projects[index].isDeployed &&
                     <a href={data.projects[index].liveLink}>Live Link</a>
                 }

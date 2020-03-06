@@ -32,7 +32,7 @@ function App() {
         <Route exact path="/"><Glance/></Route>
       <Route path="/biography"><Biography/></Route>
       <Route path="/portfolio"><Portfolio/></Route>
-      <Route path="/portfolio/:id"><Project/></Route>
+    <Route path="/:id" component={Project}></Route>
 
         </Switch>
    </Router>
