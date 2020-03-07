@@ -1,7 +1,10 @@
 .navbar{
-    background-color: #FAD6DD;
+    background-color: #A8D8EA;
     /* height: 60px; */
     min-height: 75px;
     max-height: fit-content;
     padding: 0 20% 0 20%;
+}
+.navbar-brand{
+    font-size: 40px;
 }

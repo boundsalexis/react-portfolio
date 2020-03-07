@@ -18,13 +18,13 @@ const Navbar = props => {
                       <li className="nav-item active">
                         <a className="nav-link" href="/biography">Biography</a>
                       </li>
-                      <li className="nav-item">
+                      <li className="nav-item active">
                         <a className="nav-link" href="/portfolio">Portfolio</a>
                       </li>
                       {/* <li className="nav-item">
                         <a className="nav-link" href="">Contact Information</a>
                       </li> */}
-                      <li className="nav-item">
+                      <li className="nav-item active">
                         <a className="nav-link" href="/">At a glance...</a>
                       </li>
                     </ul>

@@ -1,12 +1,26 @@
 .footer{
-    position: absolute;
-    bottom: -100px;
+    position: relative;
+    margin-top: 10px;
+    /* negative value of footer height */
+    /* height: 100px; */
+    clear: both;
+    background-color: red;
+    /* position: relative;
+    bottom: 0;
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: #f5f5f5;
+    background-color: #A8D8EA ;
+    margin-bottom:0px; */
 }
 #footercontent{
 text-align: center;
 margin: 0 auto;
+background-color: #A8D8EA ;
+
+}
+.fab{
+    color:#DBA9EB; 
+    font-size: 30px;
+    padding:10px;
 }
