@@ -33,7 +33,6 @@ function Project(props) {
             </div>
           
 
-<<<<<<< HEAD
             <div className="skills">
             <h3>Technologies</h3>
 
@@ -45,17 +44,8 @@ function Project(props) {
                     <div className="links">
                     {data.projects[index].isDeployed &&
                     <a className="link" href={data.projects[index].liveLink}>Live Link</a>
-=======
-            <div className="projectlinks">
-                <h3>Technologies</h3>
-            {data.projects[index].technologies.map(item => (
-                <h6>{item}</h6>
-            ))}
-                {data.projects[index].isDeployed &&
-                    <a href={data.projects[index].liveLink}>Live Link</a>
->>>>>>> 8166837... updated json, checking on style before finishing adding the rest of my projects
                 }
-                {/* <br></br> */}
+                {/* <br></br> */}c
              
          
                 <a className="link" href={data.projects[index].repoLink}>Repository Link</a>
