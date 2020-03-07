@@ -46,6 +46,7 @@ function Project(props) {
                     <a className="link" href={data.projects[index].liveLink}>Live Link</a>
                 }
                 {/* <br></br> */}
+                {/* <br></br> */}
              
          
                 <a className="link" href={data.projects[index].repoLink}>Repository Link</a>
