@@ -13,13 +13,20 @@ function Glance(props) {
                 {/* <h2>Featured Application</h2> */}
                 <h3>{data.projects[0].name}</h3>
                 <img className="image" src={data.projects[0].gif}  alt="politicalgif"></img>
-                {data.projects[0].highlights.map(item => (
-                    <h6>{item}</h6>
+                
+                           <h2>Highlights</h2> 
+                           <ul>
+        
+                         {data.projects[0].highlights.map(item => (
+                    <li>{item}</li>
                 ))}
-                <div className="stack">
+                </ul>
+           
+                <div className="links">
+                      <a href={data.projects[0].liveLink} >Live Link</a>
+                    <a href={data.projects[0].repoLink} >Repository Link</a>
                     <a href={data.projects[0].name} className="btn btn-primary" id={data.projects[0].name}>Get Details</a>
-                    {/* <a href={data.projects[0].liveLink} >Live Link</a>
-                    <a href={data.projects[0].repoLink} >Repository Link</a> */}
+                  
                 </div>
                 </div>
                 <div className="skills">

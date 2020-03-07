@@ -10,8 +10,12 @@ function Biography(props) {
     // };
     return (
         <div className="container">
-            <img class="img-fluid" src={data.headshot} alt="my head"></img>
-    <p>{data.bio}</p>
+            <img class="img-fluid skills" src={data.headshot} alt="my head"></img>
+            <div className="ftapp">
+                <h1 className="title">Biography</h1>
+            <p>{data.bio}</p>
+
+            </div>
         </div>
     )
         ;
