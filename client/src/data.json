@@ -19,8 +19,8 @@
             "technologies": ["MongoDB","Express","React","Node.js","Materialize", "Redux"],
             "isDeployed": true,
             "liveLink": "https://artiste-affame.herokuapp.com/",
-            "repoLink": "https://github.com/boundsalexis/react-portfolio",
-            "gif":"/artisteaffame.gif"
+            "repoLink": "https://github.com/boundsalexis/react-portfolio"
+           
 
         },
         {
