@@ -8,18 +8,7 @@ body {
   background-image: url("./greek-vase.png")!important; 
  }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-#root{ */ 
-  /* background-image: url("./raspberry-lace.gif")!important; */
-  /* height: 100vh; */
- /* background-color: aqua; */
-/* } */
-/* body{
-  margin: 0 auto;
-} */
+
 html{
   position: relative;
 

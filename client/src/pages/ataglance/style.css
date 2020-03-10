@@ -1,75 +1,94 @@
-.container{
-    /* text-align: center; */
-    height: 100%;
-   
-    /* margin: 0 auto; */
-    margin-top: 50px;
-    background-color: #F9F7F7;
-    border-radius: 20px;
-    overflow: auto;
-  /* padding-bottom: 100px; */
-  margin-bottom: 50px;
-}
-
-    /* background-image: url("./asteroids.jpg")!important; */
-/* } */
-.technical{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* text-align: center; */
-    /* width: fit-content; */
-    /* margin:10px; */
-    grid-column-gap: 10PX;
-    
-    
-}
-.mainportfolio{
-    padding-top:50px;
-    padding-bottom: 50px;
-}
-.skills{
-    float: left;
-    padding:20px;
-    /* width:30%; */
-}
-.edu {
-    content: "";
-    clear: both;
-    display: table;
-  }
-.stack{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: fit-content;
-}
-.edu{
-    width: fit-content;
-}
-.image{
-    width: 70%;
-}
-.ftapp{
-    float:right;
-    width:60%;
-    /* margin:10px; */
-    padding:20px;
-}
-
 .links{
-
+    
     display: inline-grid;
  
 }
 .link{
     margin-bottom: 15px;
 }
-/* media query at 770 */
-
+.container{
+    background-color: #F9F7F7;
+}
 .img-fluid{
     width: 40%;
     height: 40%;
     border-radius:250px;
+    text-align: center;
 }
-.bio{
- margin:0 auto;
-}
+@media only screen and (min-width: 900px) {
+    .container{
+        /* text-align: center; */
+        height: 100%;
+       
+        /* margin: 0 auto; */
+        margin-top: 50px;
+        background-color: #F9F7F7;
+        border-radius: 20px;
+        overflow: auto;
+      /* padding-bottom: 100px; */
+      margin-bottom: 50px;
+    }
+    
+        /* background-image: url("./asteroids.jpg")!important; */
+    /* } */
+    .technical{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* text-align: center; */
+        /* width: fit-content; */
+        /* margin:10px; */
+        grid-column-gap: 10PX;
+        
+        
+    }
+    .mainportfolio{
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+    .skills{
+        float: left;
+        padding:20px;
+        /* width:30%; */
+    }
+    .edu {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    .stack{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: fit-content;
+    }
+    .edu{
+        width: fit-content;
+    }
+    .image{
+        width: 70%;
+    }
+    .ftapp{
+        float:right;
+        width:60%;
+        /* margin:10px; */
+        padding:20px;
+    }
+    
+    /* .links{
+    
+        display: inline-grid;
+     
+    }
+    .link{
+        margin-bottom: 15px;
+    } */
+    /* media query at 770 */
+    
+    /* .img-fluid{
+        width: 40%;
+        height: 40%;
+        border-radius:250px;
+    } */
+    .bio{
+     margin:0 auto;
+    }
+  }
