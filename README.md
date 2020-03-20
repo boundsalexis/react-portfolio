@@ -4,13 +4,14 @@ A remake of my last portfolio in react!
 
 ## Installation
 
-Clone the repository
-Run NPM install
-Run NPM start
+1. Clone the repository
+2. Run NPM install
+3. Run NPM start
 
-## Live Link
-- [Link to site repository](https://alexisboundsportfolio.herokuapp.com/)
+## Deployment
 
+- [Link to live site](https://alexisboundsportfolio.herokuapp.com/)
+- [Link to repository](https://github.com/boundsalexis/react-portfolio)
 
 ## Code Snippets
 
@@ -47,32 +48,21 @@ function Footer(){
 }
 ```
 
-## Pages 
-* There are 4 pages
-* 4 Components
-* Future goal of breaking it down into smaller components
 
 
 ## Built With
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Bootstrap](https://getbootstrap.com/)
 * [Javascript](https://www.javascript.com/)
 * [React](https://reactjs.org/)
 
 
 
-## Authors
+## Author
 
  * **Alexis Bounds**
     - [GitHub](https://github.com/boundsalexis) 
     - [LinkedIn](https://www.linkedin.com/in/boundsalexis/)
-
-
-## Github Links
-
-- [Link to site repository](https://github.com/boundsalexis/react-portfolio)
 
 
 
