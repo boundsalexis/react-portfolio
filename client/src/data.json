@@ -7,8 +7,8 @@
             "longDescription": "I worked on a team with three people to create an app with real world application. In recent years voters have become more concerned with representative's campaign donors. This app allows the user to create an account and keeps track of representatives in their specified state. We have a comprehensive search field with multiple optional parameterss allowing for broad or narrow searches. From the search results the user is able to click on each representative and see their campaign donors. We used Node.js and Express to create our server, Bootstrap to style to frontend, and MySQL and Sequelize to manage our database.",
             "technologies": ["Node.js", "ES6", "Charts.js", "Bootstrap", "Express", "Proppublica API", "Opensecrets API", "Handlebars"],
             "isDeployed": true,
-            "liveLink": "https://mycandidates.herokuapp.com/",
-            "repoLink": "https://github.com/boundsalexis/tinfoil-hat",
+            "liveLink": "https://electionyear2020.herokuapp.com/",
+            "repoLink": "https://github.com/boundsalexis/election-year/",
             "gif":"/searchfunct.gif"
             
         },{
@@ -35,6 +35,17 @@
             "repoLink": "https://github.com/skuttenkuler/FitME",
             "gif":"/Fitme.gif"
             
+        },{
+            "name": "Workout Tracker",
+            "highlights":["Full Stack MERN application", "Visualize data with Charts.js"],
+            "shortDescription": "Allows user to add multiple types of exercises to a single workout. Calculates aggregate workout time, and weight lifted to provide user with useful insights on their progress.",
+            "longDescription": "Allows user to add multiple types of exercises to a single workout. Calculates aggregate workout time, and weight lifted to provide user with useful insights on their progress. The server is powered by Node.js and Express, backed by a MongoDB database. ",
+            "technologies":["HTML", "ES6", "Javascript", "CSS", "MongoDB", "Mongoose", "Express"],
+            "isDeployed": true,
+            "liveLink":"https://yourworkouttracker.herokuapp.com/stats",
+            "repoLink":"https://github.com/boundsalexis/workout-manager",
+            "gif":"/workout-manager"
+
         },
         {  "name": "Content Management System",
             "highlights":["Full CRUD cycle for all categories","Command Line Interface Application", "Easy view of relationships between tables"],
@@ -60,7 +71,7 @@
             },
         {
             "name": "Cicky Game",
-            "highlights":["React","Deployed to GitHub Pages", "React Hooks"],
+            "highlights":["React","Deployed to GitHub Pages", "React Hooks", "Mobile friendly"],
             "technologies": ["React ", "Handlebars ", " Bootstrap", " CSS", " JSX"],
             "isDeployed": true,
             "liveLink":"https://boundsalexis.github.io/clicky-game/",

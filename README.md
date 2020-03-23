@@ -55,6 +55,7 @@ function Footer(){
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://www.javascript.com/)
 * [React](https://reactjs.org/)
+* [Node.JS](https://nodejs.org/en/)
 
 
 
