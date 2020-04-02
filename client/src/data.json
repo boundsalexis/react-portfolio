@@ -75,7 +75,7 @@
             "isDeployed": true,
             "liveLink":"https://boundsalexis.github.io/clicky-game/",
             "repoLink": "https://github.com/boundsalexis/clicky-game",
-            "shortDescription": "This is a memory game which utilizes React to track the state and keep the scores updating. Upon each click the clicked item is compared to an array holding all clicked items and if it is already in that array the user has lost. If the clicked item is not in the array it is added and the score is incremented.",
+            "shortDescription": "This is a memory game which utilizes React to track the state update the user's score. Upon each click the clicked item is compared to an array holding all clicked items. If it is already in that array the user has lost, if not it is added and the score is incremented.",
             "longDescription": "I used the React context hook to keep track of which pictures the user has already clicked. Each time the user clicks we take in what they clicked, compare it to what has already been clicked, if it is a new item we add it to our clicked array and continue. If the item has been clicked before we send them a you lost alert and reset the game. React is a fun tool to work with, managing the state is a convienient alternative to constantly querying a database.",
             "gif":"/clickygame.gif"
             },

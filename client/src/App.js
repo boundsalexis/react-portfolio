@@ -18,6 +18,7 @@ import Footer from "./components/footer";
 import Portfolio from "./pages/portfolio";
 import Project from "./pages/project";
 import Biography from './pages/bio';
+import Contact from './pages/contact';
 import Push from "./components/push";
 // import Project from "./pages/projects";
 
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/"><Glance/></Route>
       <Route path="/biography"><Biography/></Route>
       <Route path="/portfolio"><Portfolio/></Route>
+      <Route path="/contact"><Contact/></Route>
     <Route path="/:id" component={Project}></Route>
 
         </Switch>
