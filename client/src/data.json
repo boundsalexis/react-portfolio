@@ -44,12 +44,11 @@
             "isDeployed": true,
             "liveLink":"https://yourworkouttracker.herokuapp.com/stats",
             "repoLink":"https://github.com/boundsalexis/workout-manager",
-            "gif":"/workout-manager"
+            "gif":"/workout-manager.gif"
 
         },
         {  "name": "Content Management System",
             "highlights":["Full CRUD cycle for all categories","Command Line Interface Application", "Easy view of relationships between tables"],
-
             "shortDescription": "Command Line Interface allowing user to add, update, and delete: Deparments, Roles, Employees, and Managers.",
             "longDescription": "This CLI has three tables. A department table, a roles table, and an employees table. Employees have a role, department and manager associated with them. There is no seperate management table, the employee table is self-referential. You can view each table individually and a join of them all.",
             "technologies": [ "ES6", "Javascript", "Pure.CSS", "MySQL", "Sequelize"],
